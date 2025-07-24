@@ -78,11 +78,14 @@ nav a:hover {
 }
 
 .hero-image img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 50%;
   border: 5px solid #ffa500;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
 .skills {
