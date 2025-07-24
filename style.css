@@ -230,3 +230,27 @@ footer p {
     margin: 0 5px;
   }
 }
+
+
+
+@media (max-width: 1024px) {
+  .hero {
+    flex-direction: column-reverse; /* 👈 This puts image above text */
+    text-align: center;
+    gap: 40px;
+    padding: 60px 5%;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  }
+
+
+  
